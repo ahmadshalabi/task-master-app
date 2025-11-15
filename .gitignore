@@ -1,0 +1,53 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE Files - Cursor/VS Code
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Docker Volumes Data (keep compose files)
+docker-data/
+postgres-data/
+
+# Build Artifacts
+dist/
+build/
+target/
+
+# Dependencies (will be in subproject gitignores)
+node_modules/
+.gradle/
+
+# Test Coverage
+coverage/
+*.coverage
+.nyc_output/
+
+# Documentation Build Output
+docs/_build/
+site/
+
+# Backup Files
+*.backup
+*.old
