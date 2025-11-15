@@ -1,0 +1,2 @@
+-- Create database
+-- CREATE DATABASE task_master_db; -- already created in docker-compose.yml
